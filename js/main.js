@@ -23,7 +23,7 @@ takes 1 argument: your puppy's age.
 calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
 outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
 Call the function three times with different sets of values.
-Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.
+Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.*/
 
 function calculateDogAge (age, humanAge) {
     let dogYears = age * 7; 
@@ -36,10 +36,10 @@ calculateDogAge(5);
 calculateDogAge(2);
 calculateDogAge(1);
 
-*/
 
 
-Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+/*Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
 
 Write a function named calculateSupply that:
 takes 2 arguments: age, amount per day.
@@ -58,3 +58,4 @@ function calculateSupply(age, amtPerDay, maxAge) {
 calculateSupply(20, 4, 80);
 calculateSupply(65, 3, 90);
 calculateSupply(30, 2, 65);
+*/
