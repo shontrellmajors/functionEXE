@@ -16,30 +16,31 @@ tellFortune(doctor, Nashville, Bill, 3);
 */
 
 
-/*You know how old your dog is in human years, but what about dog years? Calculate it!
+/*The Puppy Age Calculator
+You know how old your dog is in human years, but what about dog years? Calculate it!
 
 Write a function named calculateDogAge that:
 takes 1 argument: your puppy's age.
 calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
 outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
 Call the function three times with different sets of values.
-Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.*/
+Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.
 
-function calculateDogAge (age, humanAge) {
+function calculateDogAge (age) {
     let dogYears = age * 7; 
-    let humanAge = human * ;
     console.log("Your doggie is " + dogYears + " years old in dog years!");
-    console.log("You are " + humanAge + " in dog years!");
 }
 
 calculateDogAge(5);
 calculateDogAge(2);
 calculateDogAge(1);
+*/
 
 
 
 
-/*Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+/*The Lifetime Supply Calculator
+Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
 
 Write a function named calculateSupply that:
 takes 2 arguments: age, amount per day.
@@ -59,3 +60,31 @@ calculateSupply(20, 4, 80);
 calculateSupply(65, 3, 90);
 calculateSupply(30, 2, 65);
 */
+
+
+/*The Geometrizer
+Create 2 functions that calculate properties of a circle, using the definitions here.
+
+Create a function called calcCircumfrence:
+
+Pass the radius to the function.
+Calculate the circumference based on the radius, and output "The circumference is NN".
+Create a function called calcArea:
+
+Pass the radius to the function.
+Calculate the area based on the radius, and output "The area is NN". */
+
+
+function calcCircumfrence (radius) {
+   let circumference = Math.PI * 2 * radius; 
+    console.log("The circumference is " + circumference);
+}
+
+function calcArea (radius) {
+    let area = Math.PI * radius * 2;
+    console.log("The area is " + radius);
+}
+
+
+calcCircumfrence(40);
+calcArea(20);
